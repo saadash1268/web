@@ -1,0 +1,25 @@
+.a{
+    height: 100vh;
+    display: flex;
+}
+
+.a-left{
+    flex:1
+}
+
+.a-right{
+    flex:1
+}
+
+.a-title{
+    font-weight: 400;
+}
+
+.a-sub{
+    margin: 20px 0px;
+}
+
+.a-desc{
+    font-weight: 300;
+} 
+
