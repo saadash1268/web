@@ -1,8 +1,8 @@
 import React from "react";
 import "./productList.css";
 import Product from "../product/Product";
-import gardenGenieVideo from "../../assets/newCopy of Garden Genie by M.A.S.H.E.D Long.mp4";
-import pokedexVideo from "../../assets/Pokedex.mp4";
+import gardenGenieImage from "../../assets/GardenGenieSC.png";
+import pokedexImage from "../../assets/PokedexSC.png";
 
 const ProductList = () => {
   return (
@@ -12,8 +12,8 @@ const ProductList = () => {
         <p className="pl-desc">add some information describing here</p>
       </div>
       <div className="pl-list">
-        <Product videoSrc={gardenGenieVideo} />
-        <Product videoSrc={pokedexVideo} />
+        <Product imageSrc={gardenGenieImage} />
+        <Product imageSrc={pokedexImage} />
       </div>
     </div>
   );
