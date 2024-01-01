@@ -11,11 +11,9 @@
     justify-content: center;
 }
 
-.i-right{
-    flex:1;
-}
 
-.i-left-wrapper{
+
+.i-wrapper{
     padding: 50px;
     height: 50%;
     display: flex;
