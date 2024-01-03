@@ -5,6 +5,8 @@ import pokedexImage from "../../assets/PokedexSC.png";
 import GardenGenie from "../../assets/GardenGenie.mp4";
 import Pokedex from "../../assets/Pokedex.mp4";
 import { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const ProductList = () => {
 
@@ -38,6 +40,21 @@ const ProductList = () => {
           <p>
             Garden Genie was created to assist gardening novices in starting their gardening journey by providing plant recommendations based on users' needs. This project served as the final assignment during my bootcamp, completed collaboratively over four weeks by our team.
           </p>
+          <div className="link">
+          <button
+            onClick={() => window.open("https://garden-genie.netlify.app/", "_blank")}
+            className="button-link">
+               Visit Live Site
+            </button>
+        <a
+          href="https://github.com/M-A-S-H-E-D6/M.A.S.H.E.D_Garden_Genie"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon-link"
+        >
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+        </div>
           <div>
             <button onClick={handleGardenGenieVideoButtonClick}>Watch Demo</button>
           </div>
@@ -50,6 +67,14 @@ const ProductList = () => {
           <div>
             <button onClick={handlePokedexVideoButtonClick}>Watch Demo</button>
           </div>
+          <div><a
+          href="https://github.com/saadash1268/Pokedex-"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon-link"
+        >
+          <FontAwesomeIcon icon={faGithub} />
+        </a></div>
         </div>
       </div>
 
