@@ -50,7 +50,7 @@ const ProductList = () => {
         <div className="pl-item">
           <Product imageSrc={gardenGenieImage} />
           <p>
-            Garden Genie was created to assist gardening novices in starting their gardening journey by providing plant recommendations based on users' needs. This project served as the final assignment during my bootcamp, completed collaboratively over four weeks by our team.
+            Garden Genie was created to assist gardening novices in starting their gardening journey by providing plant recommendations based on users' needs. This project served as the final assignment during my bootcamp, completed collaboratively over four weeks by our team. // need to add tech stack
           </p>
           <div className="link">
           <button
