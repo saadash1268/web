@@ -4,6 +4,8 @@ import gardenGenieImage from "../../assets/GardenGenieSC.png";
 import pokedexImage from "../../assets/PokedexSC.png";
 import GardenGenie from "../../assets/GardenGenie.mp4";
 import Pokedex from "../../assets/Pokedex.mp4";
+import codecardsImage from "../../assets/Codecards.png"
+import codecardsVideo from "../../assets/Codecards.mp4"
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -13,6 +15,7 @@ const ProductList = () => {
 
   const [showGardenGeniePopup, setShowGardenGeniePopup] = useState(false);
   const [showPokedexPopup, setShowPokedexPopup] = useState(false);
+  const [showCodecardPopup, setShowCodecardPopup] = useState(false);
 
   const handleGardenGenieVideoButtonClick = () => {
     setShowGardenGeniePopup(true);
@@ -29,6 +32,15 @@ const ProductList = () => {
   const handleClosePokedexVideoPopup = () => {
     setShowPokedexPopup(false);
   };
+
+  const handleCodecardVideoButtonClick = () => {
+    setShowCodecardPopup(true);
+  };
+
+  const handleCloseCodecardVideoPopup = () => {
+    setShowCodecardPopup(false);
+  }
+
   return (
     <div className="pl">
       <div className="pl-texts">
@@ -76,6 +88,24 @@ const ProductList = () => {
           <FontAwesomeIcon icon={faGithub} />
         </a></div>
         </div>
+
+        <div className="pl-item">
+          <Product imageSrc={codecardsImage} />
+          <p>
+            Add codecard desccription
+          </p>
+          <div>
+            <button onClick={handleCodecardVideoButtonClick}>Watch Demo</button>
+          </div>
+          <div><a
+          href="https://github.com/SchoolOfCode/bc14_w7_project-frontend-sorcerers-of-code"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon-link"
+        >
+          <FontAwesomeIcon icon={faGithub} />
+        </a></div>
+        </div>
       </div>
 
       {showGardenGeniePopup && (
@@ -99,7 +129,20 @@ const ProductList = () => {
           </div>
         </div>
       )}
+
+      {showCodecardPopup && (
+        <div className="video-modal-overlay">
+          <div className="video-popup">
+            <video width="560" height="315" controls>
+              <source src={codecardsVideo} type="video/mp4" />
+            </video>
+            <button onClick={handleCloseCodecardVideoPopup}>Close</button>
+          </div>
+        </div>
+      )}
     </div>
+
+    
   );
 };
 
