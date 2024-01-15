@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black; 
+  }
+  
+  .cv-download button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: blue; 
+    color: white; 
+  }
+  
+  .cv-download button:hover {
+    background-color: darkblue; 
+  }
+  
