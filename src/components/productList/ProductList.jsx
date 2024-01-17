@@ -9,6 +9,9 @@ import codecardsVideo from "../../assets/Codecards.mp4"
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { faPlay } from '@fortawesome/free-solid-svg-icons';
+
 
 const ProductList = () => {
 
@@ -60,12 +63,16 @@ const ProductList = () => {
           <a href="https://github.com/M-A-S-H-E-D6/M.A.S.H.E.D_Garden_Genie" target="_blank" rel="noopener noreferrer" className="icon-link">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <button onClick={() => window.open("https://garden-genie.netlify.app/", "_blank")} className="button live-link">
-            Visit
-          </button>
-          <button onClick={handleGardenGenieVideoButtonClick} className="button demo-button">
-            Demo
-          </button>
+          <FontAwesomeIcon 
+            icon={faPlay} 
+            className="icon demo-button" 
+            onClick={handleGardenGenieVideoButtonClick} 
+          />
+          <FontAwesomeIcon 
+            icon={faArrowUpRightFromSquare} 
+            className="icon live-link" 
+            onClick={() => window.open("https://garden-genie.netlify.app/", "_blank")} 
+          />
         </div>
       </div>
     </section>
@@ -82,9 +89,11 @@ const ProductList = () => {
       <a href="https://github.com/saadash1268/Pokedex-" target="_blank" rel="noopener noreferrer" className="icon-link">
         <FontAwesomeIcon icon={faGithub} />
       </a>
-      <button onClick={handlePokedexVideoButtonClick} className="button demo-button">
-        Demo
-      </button>
+      <FontAwesomeIcon 
+        icon={faPlay} 
+        className="icon demo-button" 
+        onClick={handlePokedexVideoButtonClick} 
+      />
     </div>
   </div>
 </section>
@@ -101,9 +110,11 @@ const ProductList = () => {
       <a href="https://github.com/SchoolOfCode/bc14_w7_project-frontend-sorcerers-of-code" target="_blank" rel="noopener noreferrer" className="icon-link">
         <FontAwesomeIcon icon={faGithub} />
       </a>
-      <button onClick={handleCodecardVideoButtonClick} className="button demo-button">
-        Demo
-      </button>
+      <FontAwesomeIcon 
+        icon={faPlay} 
+        className="icon demo-button" 
+        onClick={handleCodecardVideoButtonClick} 
+      />
     </div>
   </div>
 </section>
