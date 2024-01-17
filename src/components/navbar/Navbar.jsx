@@ -1,9 +1,9 @@
 import './navbar.css'; 
+import CV from "../../assets/CV.pdf";
 
 const Navbar = () => {
-  const handleCVDownload = () => {
-    // this should download my cv
-  }; 
+  
+  
 
 
   return (
@@ -16,9 +16,7 @@ const Navbar = () => {
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-      </div>
-      <div className="cv-download">
-        <button onClick={handleCVDownload}>Download CV</button>
+        <a href={CV} download className="cv-download">CV</a>
       </div>
     </nav>
   );

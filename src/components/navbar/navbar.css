@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px;
   }
@@ -12,24 +12,15 @@
   .nav-links {
     display: flex;
     justify-content: center;
-    width: 50%;
+    /* width: 50%; */
   }
   
   .nav-links a {
     margin: 0 10px;
     text-decoration: none;
     color: black; 
+    font-size: 20px;
   }
   
-  .cv-download button {
-    padding: 10px;
-    cursor: pointer;
-    border: none;
-    background-color: blue; 
-    color: white; 
-  }
-  
-  .cv-download button:hover {
-    background-color: darkblue; 
-  }
+ 
   
