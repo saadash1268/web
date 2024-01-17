@@ -3,7 +3,7 @@ import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
 import Navbar from "./components/navbar/Navbar";
-
+import "./app.css"
 
 const App = () => {
   return ( 
