@@ -1,12 +1,7 @@
 .a{
-    height: 100vh;
+    height: auto;
     display: flex;
 }
-
-
-/* .a-right{
-    
-} */
 
 .a-title{
     font-weight: 400;
