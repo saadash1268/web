@@ -1,0 +1,12 @@
+.skills-image {
+    width: 800px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 20px;
+}
