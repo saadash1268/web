@@ -127,7 +127,7 @@ const ProductList = () => {
             <video width="560" height="315" controls>
               <source src={GardenGenie} type="video/mp4" />
             </video>
-            <button onClick={handleCloseGardenGenieVideoPopup}>Close</button>
+            <button onClick={handleCloseGardenGenieVideoPopup}>X</button>
           </div>
         </div>
       )}
@@ -138,7 +138,7 @@ const ProductList = () => {
             <video width="560" height="315" controls>
               <source src={Pokedex} type="video/mp4" />
             </video>
-            <button onClick={handleClosePokedexVideoPopup}>Close</button>
+            <button onClick={handleClosePokedexVideoPopup}>X</button>
           </div>
         </div>
       )}
@@ -149,7 +149,7 @@ const ProductList = () => {
             <video width="560" height="315" controls>
               <source src={codecardsVideo} type="video/mp4" />
             </video>
-            <button onClick={handleCloseCodecardVideoPopup}>Close</button>
+            <button onClick={handleCloseCodecardVideoPopup}>X</button>
           </div>
         </div>
       )}
