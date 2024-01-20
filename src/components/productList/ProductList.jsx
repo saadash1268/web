@@ -57,7 +57,7 @@ const ProductList = () => {
       </div>
       <div className="content">
         <p className="description">
-          Garden Genie was created to assist gardening novices in starting their gardening journey by providing plant recommendations based on users' needs. This project served as the final assignment during my bootcamp, completed collaboratively over four weeks by our team. // need to add tech stack
+        Garden Genie is an intuitive app designed to help gardening beginners embark on their green journey with ease, offering personalised plant recommendations based on individual needs like time and space availability. Developed as our final collaborative bootcamp project over an intense four-week period. Garden Genie stands out with its unique features, guiding users from plant selection to ongoing care. // need to add tech stack
         </p>
         <div className="project-actions">
           <a href="https://github.com/M-A-S-H-E-D6/M.A.S.H.E.D_Garden_Genie" target="_blank" rel="noopener noreferrer" className="icon-link">
@@ -83,7 +83,7 @@ const ProductList = () => {
   </div>
   <div className="content">
     <p className="description">
-      Pokémon has always held a special place in my childhood memories. Leveraging the Pokémon API, I crafted a Pokédex, seamlessly fetching and rendering data from the API and presenting it in an engaging card format.
+    Pokémon has always been a cherished part of my childhood, inspiring me to create a digital Pokédex. Using the Pokémon API, this project involved fetching and rendering data, and presenting it in a card format. Each card showcases a Pokémon with its details, offering a visually engaging and user-friendly experience. This Pokédex not only rekindles nostalgia but also demonstrates my technical skills in API integration and front-end development.
     </p>
     <div className="project-actions">
       <a href="https://github.com/saadash1268/Pokedex-" target="_blank" rel="noopener noreferrer" className="icon-link">
@@ -104,7 +104,7 @@ const ProductList = () => {
   </div>
   <div className="content">
     <p className="description">
-      Add codecard description
+    CodeCards is a dynamic flashcard app designed specifically for coding bootcamp students, leveraging spaced repetition to simplify and enhance the learning process. Created in a one-week collaborative effort during our sixth week at the bootcamp. It’s perfect for anyone embarking on or advancing their coding journey, offering an efficient and engaging way to absorb and retain complex coding concepts.
     </p>
     <div className="project-actions">
       <a href="https://github.com/SchoolOfCode/bc14_w7_project-frontend-sorcerers-of-code" target="_blank" rel="noopener noreferrer" className="icon-link">
