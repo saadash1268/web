@@ -15,5 +15,7 @@
 
 .a-desc{
     font-weight: 300;
+    column-count: 2;
+    column-gap: 20px;
 } 
 
