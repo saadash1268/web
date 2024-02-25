@@ -20,28 +20,52 @@ const ProductList = () => {
   const [showPokedexPopup, setShowPokedexPopup] = useState(false);
   const [showCodecardPopup, setShowCodecardPopup] = useState(false);
 
+  //disable the body scroll
+  const disableBodyScroll = () => {
+    document.body.style.overflow = 'hidden';
+  };
+
+  //enable the body scroll 
+  const enableBodyScroll = () => {
+    document.body.style.overflow = 'auto';
+  };
+
+
   const handleGardenGenieVideoButtonClick = () => {
     setShowGardenGeniePopup(true);
+    disableBodyScroll();
   };
 
   const handleCloseGardenGenieVideoPopup = () => {
     setShowGardenGeniePopup(false);
+    if (!showPokedexPopup && !showCodecardPopup) {
+      enableBodyScroll();
+    }
   };
 
   const handlePokedexVideoButtonClick = () => {
     setShowPokedexPopup(true);
+    disableBodyScroll();
   };
 
   const handleClosePokedexVideoPopup = () => {
     setShowPokedexPopup(false);
+    if (!showGardenGeniePopup && !showCodecardPopup) {
+      enableBodyScroll();
+    }
   };
 
   const handleCodecardVideoButtonClick = () => {
     setShowCodecardPopup(true);
+    disableBodyScroll();
+
   };
 
   const handleCloseCodecardVideoPopup = () => {
     setShowCodecardPopup(false);
+    if (!showGardenGeniePopup && !showPokedexPopup) {
+      enableBodyScroll();
+    }
   }
 
   return (
