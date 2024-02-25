@@ -2,14 +2,13 @@
     height: auto;
     display: flex;
     max-width: 80%;
-    align-items: center;
-    flex-direction: column;
+    align-items: flex-start;
     margin: 0 auto;
 }
 
 .a-title{
     font-weight: 400;
-    /* border-bottom: 5px solid darkblue ; */
+    /* border-bottom: 5px solid darkgreen ; */
     width:fit-content;
 }
 
@@ -23,3 +22,8 @@
     column-gap: 30px;
 } 
 
+/* Reset margin and padding to make both columns start on the same line  */
+.a-desc > *:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
