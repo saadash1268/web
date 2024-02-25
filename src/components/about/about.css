@@ -1,6 +1,10 @@
 .a{
     height: auto;
     display: flex;
+    max-width: 80%;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .a-title{
@@ -16,6 +20,6 @@
 .a-desc{
     font-weight: 300;
     column-count: 2;
-    column-gap: 20px;
+    column-gap: 30px;
 } 
 
