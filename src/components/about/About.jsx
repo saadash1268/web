@@ -7,7 +7,6 @@ const About = () => {
             
             <div className="a-right">
                 <h1 className="a-title">About Me</h1>
-                {/* <p className="a-sub">Change content, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo nec urna fringilla tincidunt.</p> */}
                 <div className="a-desc">
                     <p>My tech journey began with my environmental geography degree, where I used geospatial technology to map pollution trends.</p>
                     <p>After graduating, I worked in the care sector, supporting young people with learning disabilities. Here I saw the impact of accessible technology, such as communication apps for non-verbal children, and recognised the need for inclusive design and accessibility in enhancing lives.</p>
