@@ -126,7 +126,7 @@ margin-bottom: 50px;
   .image-container {
     width: 80%;
     order: 1; 
-    margin-bottom: -30px;
+    margin-bottom: -20px;
     padding-left: 25px;
   }
 
@@ -138,7 +138,7 @@ margin-bottom: 50px;
 
   .content {
     order: 3; 
-    margin-top: 0px;
+    margin-top: 15px;
 
   }
   
