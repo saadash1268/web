@@ -116,3 +116,35 @@ margin-bottom: 50px;
   line-height: 1; 
   
 }
+
+
+@media (max-width: 768px) {
+  .pl-item {
+    flex-direction: column; 
+  }
+
+  .image-container {
+    width: 80%;
+    order: 1; 
+    margin-bottom: -30px;
+    padding-left: 25px;
+  }
+
+  .project-actions {
+    order: 2; 
+    margin-bottom: 20px;
+
+  }
+
+  .content {
+    order: 3; 
+    margin-top: 0px;
+
+  }
+  
+  .pl-title {
+    font-size: 1.5em; 
+    padding-top: 30px; 
+  }
+}
+
